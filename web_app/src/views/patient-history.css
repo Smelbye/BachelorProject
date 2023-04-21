@@ -1,0 +1,689 @@
+.patient-history-container {
+  min-height: 100vh;
+}
+.patient-history-patient-history {
+  width: 100%;
+  height: 1117px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(242, 242, 242, 1);
+}
+.patient-history-text {
+  top: 154px;
+  left: 773px;
+  color: rgba(0, 0, 0, 1);
+  width: 493px;
+  height: auto;
+  position: absolute;
+  font-size: 45px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Jost;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-history-text02 {
+  top: 238px;
+  left: 401px;
+  color: rgba(88, 88, 88, 1);
+  width: 1002px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-history-text04 {
+  top: 678px;
+  left: 1361px;
+  color: rgba(88, 88, 88, 1);
+  width: 161px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-history-text06 {
+  top: 675px;
+  left: 411px;
+  color: rgba(88, 88, 88, 1);
+  width: 1002px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-history-doctor-feedback-patient {
+  top: 734px;
+  left: 411px;
+  width: 865px;
+  height: 272px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 30px;
+}
+.patient-history-patient-data-patient {
+  top: 739px;
+  left: 1346px;
+  width: 259px;
+  height: 272px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 30px;
+}
+.patient-history-patient-history-patient {
+  top: 295px;
+  left: 400.9658203125px;
+  width: 1204.065185546875px;
+  height: 250px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.patient-history-rectangle2807 {
+  top: 2px;
+  left: 0.0341796875px;
+  width: 1204px;
+  height: 248px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 30px;
+}
+.patient-history-line11 {
+  top: 247px;
+  left: 1049.0341796875px;
+  width: 171px;
+  height: 0px;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+}
+.patient-history-line10 {
+  top: 247px;
+  left: 665.0341796875px;
+  width: 171px;
+  height: 0px;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+}
+.patient-history-text08 {
+  top: 2px;
+  left: 665.0341796875px;
+  color: rgba(88, 88, 88, 1);
+  width: 372px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-history-text10 {
+  top: 3px;
+  left: 1049.0341796875px;
+  color: rgba(88, 88, 88, 1);
+  width: 155px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-history-text12 {
+  left: 230.0341796875px;
+  color: rgba(88, 88, 88, 1);
+  width: 435px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-history-text14 {
+  top: 2px;
+  left: 0.0341796875px;
+  color: rgba(88, 88, 88, 1);
+  width: 230px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-history-line4 {
+  top: 212.887939453125px;
+  left: 0px;
+  width: 1204px;
+  height: 0px;
+  position: absolute;
+}
+.patient-history-line3 {
+  top: 145.887939453125px;
+  left: 0px;
+  width: 1204px;
+  height: 0px;
+  position: absolute;
+}
+.patient-history-line2 {
+  top: 77.887939453125px;
+  left: 0px;
+  width: 1204px;
+  height: 0px;
+  position: absolute;
+}
+.patient-history-line9 {
+  top: 250px;
+  left: 231.0341796875px;
+  width: 171px;
+  height: 0px;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+}
+.patient-history-view {
+  top: 575px;
+  left: 411px;
+  width: 241px;
+  height: 69px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-radius: 30px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(0, 10, 255, 1);
+}
+.patient-history-text16 {
+  color: rgba(255, 255, 255, 1);
+  width: 241px;
+  height: auto;
+  top: 8px;
+  position: absolute;
+  font-size: 45px;
+  align-self: auto;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-history-dashboard-button {
+  top: 114px;
+  left: 1533px;
+  width: 139px;
+  height: 39.79668045043945px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.patient-history-view1 {
+  top: 0px;
+  left: 0px;
+  width: 139px;
+  height: 39.79668045043945px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-radius: 30px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(0, 10, 255, 1);
+}
+.patient-history-text18 {
+  color: rgba(255, 255, 255, 1);
+  width: 139px;
+  top: 7px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.feedback-patient-history {
+  position: absolute;
+  font-size: 25px;
+  top: 760px;
+  left: 430px;
+  width: 800px;
+}
+
+.doctor-id {
+  position: absolute;
+  z-index: 1;
+  font-size: 20px;
+  top: 85px;
+  left: 15px;
+  width: 200px;
+}
+
+.ipfs-hash {
+  position: absolute;
+  z-index: 1;
+  font-size: 20px;
+  top: 85px;
+  left: 380px;
+  width: 200px;
+}
+
+.timestamp-patient-his {
+  position: absolute;
+  z-index: 1;
+  font-size: 20px;
+  top: 85px;
+  left: 765px;
+  width: 200px;
+}
+
+.cost-patient-his {
+  position: absolute;
+  z-index: 1;
+  font-size: 20px;
+  top: 85px;
+  left: 1080px;
+  width: 200px;
+}
+
+.cost-patient-history {
+  position: absolute;
+  z-index: 1;
+  top: 770px;
+  font-size: 25px;
+  left: 1380px;
+  width: 200px;
+
+}
+.patient-history-group1359 {
+  top: 0px;
+  left: 27px;
+  width: 1701px;
+  height: 123px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.patient-history-rectangle2812 {
+  top: 0px;
+  left: 297px;
+  width: 1404px;
+  height: 107px;
+  position: absolute;
+  border-color: transparent;
+}
+.patient-history-bell {
+  top: 30px;
+  left: 1532px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+.patient-history-metamaskicon2 {
+  top: 12px;
+  left: 1603px;
+  width: 68px;
+  height: 63px;
+  position: absolute;
+}
+.patient-history-text20 {
+  top: 20px;
+  color: rgba(0, 10, 255, 1);
+  width: 859px;
+  height: auto;
+  position: absolute;
+  font-size: 42px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-history-group1358 {
+  top: 50px;
+  left: 0px;
+  width: 324px;
+  height: 870px;
+  display: flex;
+  padding: 0;
+  position: fixed;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(217, 217, 217, 0);
+}
+
+.patient-history-group1358:before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 1px;
+  height: calc(100% - 40px);
+  background-color: black;
+}
+.patient-history-text22 {
+  top: 53px;
+  left: 27px;
+  color: rgba(0, 0, 0, 1);
+  width: 282px;
+  height: auto;
+  position: absolute;
+  font-size: 45px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-history-exit {
+  top: 750px;
+  left: 27px;
+  width: 206px;
+  height: 63px;
+  display: flex;
+  padding: 0;
+  position: fixed;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.patient-history-rectangle8 {
+  top: 0px;
+  left: 11.117647171020508px;
+  width: 43px;
+  height: 63px;
+  position: absolute;
+  border-color: transparent;
+}
+.patient-history-iconexit {
+  top: 12px;
+  left: 10px;
+  width: 50.64706039428711px;
+  height: 50.64706039428711px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.patient-history-group1353 {
+  top: 4.220588207244873px;
+  left: 2.1102941036224365px;
+  width: 44.31618118286133px;
+  height: 42.20588302612305px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.patient-history-rectangle2699 {
+  top: 0px;
+  left: 2.1102945804595947px;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 4px;
+}
+.patient-history-vector721 {
+  top: 21.102943420410156px;
+  left: 0px;
+  width: 30px;
+  height: 0px;
+  position: absolute;
+}
+.patient-history-vector722 {
+  top: 12.661765098571777px;
+  left: 21.10293960571289px;
+  width: 8px;
+  height: 17px;
+  position: absolute;
+}
+.patient-history-text24 {
+  top: 19px;
+  left: 72px;
+  color: rgba(0, 0, 0, 1);
+  width: 187px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-history-text26 {
+  top: 138px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 140px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-history-text28 {
+  top: 192px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 261px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-history-text30 {
+  top: 321px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 261px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-history-text31 {
+  top: 458px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 261px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-history-text33 {
+  top: 263px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 261px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-history-text35 {
+  top: 389px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 223px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

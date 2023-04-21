@@ -1,0 +1,538 @@
+.patient-medical-assistance-container {
+  min-height: 100vh;
+}
+.patient-medical-assistance-patient-medical-assistance {
+  width: 100%;
+  height: 1117px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(242, 242, 242, 1);
+}
+.patient-medical-assistance-text {
+  top: 154px;
+  left: 773px;
+  color: rgba(0, 0, 0, 1);
+  width: 471px;
+  height: auto;
+  position: absolute;
+  font-size: 45px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-medical-assistance-text02 {
+  top: 286px;
+  left: 401px;
+  color: rgba(88, 88, 88, 1);
+  width: 1002px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-medical-assistance-upload {
+  top: 750px;
+  left: 411px;
+  width: 330px;
+  height: 60px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-radius: 30px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(0, 10, 255, 1);
+}
+
+.medical-data-text{
+  position: absolute;
+  top: 600px;
+  left: 430px;
+  font-size: 30px;
+}
+.patient-medical-assistance-text04 {
+  top: 5px;
+  color: rgba(255, 255, 255, 1);
+  width: 294px;
+  height: auto;
+  position: absolute;
+  font-size: 45px;
+  align-self: auto;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-medical-assistance-union {
+  top: 15px;
+  left: 255px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+}
+.patient-medical-assistance-concern-medical-assistance {
+  top: 345px;
+  left: 401px;
+  width: 590px;
+  height: 166px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 30px;
+}
+.concern-text {
+  position: absolute;
+  top: 360px;
+  left: 420px;
+  font-size: 20px;
+  z-index: 1;
+  width: 560px;
+
+}
+.patient-medical-assistance-text06 {
+  top: 529px;
+  left: 411px;
+  color: rgba(88, 88, 88, 1);
+  width: 1002px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-medical-assistance-medical-data-medical-assistance {
+  top: 588px;
+  left: 411px;
+  width: 865px;
+  height: 150px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 30px;
+}
+.patient-medical-assistance-dashboard-button {
+  top: 114px;
+  left: 1533px;
+  width: 139px;
+  height: 39.79668045043945px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.patient-medical-assistance-view {
+  top: 0px;
+  left: 0px;
+  width: 139px;
+  height: 39.79668045043945px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-radius: 30px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(0, 10, 255, 1);
+}
+.patient-medical-assistance-text08 {
+  color: rgba(255, 255, 255, 1);
+  width: 139px;
+  top: 7px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-medical-assistance-text10 {
+  top: 287px;
+  left: 1100px;
+  color: rgba(0, 0, 0, 1);
+  width: 396px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-medical-assistance-text12 {
+  top: 345px;
+  left: 1100px;
+  color: rgba(0, 0, 0, 1);
+  width: 455px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-medical-assistance-group1359 {
+  top: 0px;
+  left: 27px;
+  width: 1701px;
+  height: 123px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.patient-medical-assistance-rectangle2812 {
+  top: 0px;
+  left: 297px;
+  width: 1404px;
+  height: 107px;
+  position: absolute;
+  border-color: transparent;
+}
+.patient-medical-assistance-bell {
+  top: 30px;
+  left: 1532px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+.patient-medical-assistance-metamaskicon2 {
+  top: 12px;
+  left: 1603px;
+  width: 68px;
+  height: 63px;
+  position: absolute;
+}
+.patient-medical-assistance-text14 {
+  top: 20px;
+  color: rgba(0, 10, 255, 1);
+  width: 859px;
+  height: auto;
+  position: absolute;
+  font-size: 42px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-medical-assistance-group1358 {
+  top: 50px;
+  left: 0px;
+  width: 324px;
+  height: 870px;
+  display: flex;
+  padding: 0;
+  position: fixed;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(217, 217, 217, 0);
+}
+
+.patient-medical-assistance-group1358:before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 1px;
+  height: calc(100% - 40px);
+  background-color: black;
+}
+.patient-medical-assistance-text16 {
+  top: 53px;
+  left: 27px;
+  color: rgba(0, 0, 0, 1);
+  width: 282px;
+  height: auto;
+  position: absolute;
+  font-size: 45px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-medical-assistance-exit {
+  top: 750px;
+  left: 27px;
+  width: 206px;
+  height: 63px;
+  display: flex;
+  padding: 0;
+  position: fixed;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.patient-medical-assistance-rectangle8 {
+  top: 0px;
+  left: 11.117647171020508px;
+  width: 43px;
+  height: 63px;
+  position: absolute;
+  border-color: transparent;
+}
+.patient-medical-assistance-iconexit {
+  top: 12px;
+  left: 10px;
+  width: 50.64706039428711px;
+  height: 50.64706039428711px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.patient-medical-assistance-group1353 {
+  top: 4.220588207244873px;
+  left: 2.1102941036224365px;
+  width: 44.31618118286133px;
+  height: 42.20588302612305px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.patient-medical-assistance-rectangle2699 {
+  top: 0px;
+  left: 2.1102945804595947px;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 4px;
+}
+.patient-medical-assistance-vector721 {
+  top: 21.102943420410156px;
+  left: 0px;
+  width: 30px;
+  height: 0px;
+  position: absolute;
+}
+.patient-medical-assistance-vector722 {
+  top: 12.661765098571777px;
+  left: 21.10293960571289px;
+  width: 8px;
+  height: 17px;
+  position: absolute;
+}
+.patient-medical-assistance-text18 {
+  top: 19px;
+  left: 72px;
+  color: rgba(0, 0, 0, 1);
+  width: 187px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-medical-assistance-text20 {
+  top: 138px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 140px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-medical-assistance-text22 {
+  top: 192px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 261px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-medical-assistance-text24 {
+  top: 321px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 261px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-medical-assistance-text25 {
+  top: 458px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 261px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-medical-assistance-text27 {
+  top: 263px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 261px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-medical-assistance-text29 {
+  top: 389px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 223px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

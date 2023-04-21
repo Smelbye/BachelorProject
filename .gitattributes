@@ -1,0 +1,5 @@
+ethereum filter=lfs diff=lfs merge=lfs -text
+server filter=lfs diff=lfs merge=lfs -text
+sawtooth filter=lfs diff=lfs merge=lfs -text
+web_app filter=lfs diff=lfs merge=lfs -text
+web_app/node_modules/.cache/default-development/13.pack filter=lfs diff=lfs merge=lfs -text

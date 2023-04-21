@@ -1,0 +1,490 @@
+.patient-dashboard-container {
+  min-height: 100vh;
+}
+.patient-dashboard-patient-dashboard {
+  width: 100%;
+  height: 1117px;
+  display: flex;
+  overflow: hidden;
+  position: fixed;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(242, 242, 242, 1);
+}
+.patient-dashboard-line1 {
+  top: 121px;
+  left: 309px;
+  width: 744px;
+  height: 0px;
+  position: fixed;
+}
+.patient-dashboard-group1358 {
+  top: 50px;
+  left: 0px;
+  width: 324px;
+  height: 870px;
+  display: flex;
+  padding: 0;
+  position: fixed;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(217, 217, 217, 0);
+}
+
+.patient-dashboard-group1358:before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 1px;
+  height: calc(100% - 40px);
+  background-color: black;
+}
+
+.patient-dashboard-text {
+  top: 53px;
+  left: 27px;
+  color: rgba(0, 0, 0, 1);
+  width: 282px;
+  height: auto;
+  position: absolute;
+  font-size: 45px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-dashboard-exit {
+  top: 750px;
+  left: 27px;
+  width: 206px;
+  height: 63px;
+  display: flex;
+  padding: 0;
+  position: fixed;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.patient-dashboard-rectangle8 {
+  top: 0px;
+  left: 11.117647171020508px;
+  width: 43px;
+  height: 63px;
+  position: absolute;
+  border-color: transparent;
+}
+.patient-dashboard-iconexit {
+  top: 12px;
+  left: 10px;
+  width: 50.64706039428711px;
+  height: 50.64706039428711px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.patient-dashboard-group1353 {
+  top: -40px;
+  left: 0px;
+  width: 44.31618118286133px;
+  height: 42.20588302612305px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.patient-dashboard-rectangle2699 {
+  top: 0px;
+  left: 2.1102945804595947px;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 4px;
+}
+.patient-dashboard-vector721 {
+  top: 21.102943420410156px;
+  left: 0px;
+  width: 30px;
+  height: 0px;
+  position: absolute;
+}
+.patient-dashboard-vector722 {
+  top: 12.661765098571777px;
+  left: 21.10293960571289px;
+  width: 8px;
+  height: 17px;
+  position: absolute;
+}
+.patient-dashboard-text02 {
+  top: 19px;
+  left: 72px;
+  color: rgba(0, 0, 0, 1);
+  width: 187px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-dashboard-text04 {
+  top: 138px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 140px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-dashboard-text06 {
+  top: 192px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 261px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-dashboard-text08 {
+  top: 321px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 261px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-dashboard-text09 {
+  top: 458px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 261px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-dashboard-text11 {
+  top: 263px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 261px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-dashboard-text13 {
+  top: 389px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 223px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-dashboard-medical-assistance-patient {
+  top: 405px;
+  left: 675px;
+  width: 196px;
+  height: 194px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 30px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(41, 9, 235, 1);
+}
+.patient-dashboard-text15 {
+  top: 95px;
+  color: rgba(255, 255, 255, 1);
+  width: 196px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-dashboard-heartpulse {
+  top: 20px;
+  left: 60px;
+  width: 77px;
+  height: 77px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.patient-dashboard-union {
+  top: 0px;
+  left: 0px;
+  width: 77px;
+  height: 72px;
+  position: absolute;
+}
+.patient-dashboard-view-funds-patient {
+  top: 405px;
+  left: 1154px;
+  width: 196px;
+  height: 194px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 30px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(41, 9, 235, 1);
+}
+.patient-dashboard-text17 {
+  top: 120px;
+  color: rgba(255, 255, 255, 1);
+  width: 196px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-dashboard-vector {
+  top: 28px;
+  left: 56px;
+  width: 84px;
+  height: 84px;
+  position: absolute;
+}
+.patient-dashboard-patient-history-button {
+  top: 405px;
+  left: 907px;
+  width: 196px;
+  height: 194px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 30px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(41, 9, 235, 1);
+}
+.patient-dashboard-text19 {
+  top: 95px;
+  color: rgba(255, 255, 255, 1);
+  width: 196px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-dashboard-vector1 {
+  top: 16px;
+  left: 60px;
+  width: 76px;
+  height: 81px;
+  position: absolute;
+}
+.patient-dashboard-text21 {
+  top: 240px;
+  left: 795px;
+  color: rgba(0, 0, 0, 1);
+  width: 471px;
+  height: auto;
+  position: absolute;
+  font-size: 45px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-dashboard-group1359 {
+  top: 0px;
+  left: 27px;
+  width: 1701px;
+  height: 123px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.patient-dashboard-rectangle2812 {
+  top: 0px;
+  left: 297px;
+  width: 1404px;
+  height: 107px;
+  position: absolute;
+  border-color: transparent;
+}
+.patient-dashboard-bell {
+  top: 30px;
+  left: 1532px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+.patient-dashboard-metamaskicon2 {
+  top: 12px;
+  left: 1603px;
+  width: 68px;
+  height: 63px;
+  position: absolute;
+}
+.patient-dashboard-text23 {
+  top: 20px;
+  color: rgba(0, 10, 255, 1);
+  width: 859px;
+  height: auto;
+  position: absolute;
+  font-size: 42px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

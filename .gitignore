@@ -1,0 +1,5 @@
+.env
+node_modules/
+web_app/node_modules/
+ethereum/node_modules/
+server/node_modules

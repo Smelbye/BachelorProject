@@ -1,0 +1,13 @@
+FROM node:14
+
+WORKDIR /app
+
+COPY package.json /app/package.json
+RUN npm install
+RUN npm install -g ganache-cli truffle
+
+COPY ganache-core.docker.cli.js /app/ganache-core.docker.cli.js
+
+EXPOSE 7545
+
+CMD ["node", "/app/ganache-core.docker.cli.js"]

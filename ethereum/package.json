@@ -1,0 +1,14 @@
+{
+  "name": "healthcare-ethereum-backend",
+  "version": "1.0.0",
+  "description": "Ethereum back-end for the healthcare project",
+  "scripts": {
+    "test": "truffle test",
+    "migrate": "truffle migrate",
+    "compile": "truffle compile"
+  },
+  "dependencies": {
+    "truffle": "^5.4.31",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}

@@ -1,0 +1,117 @@
+version: "3.8"
+
+services:
+  sawtooth-validator:
+    image: hyperledger/sawtooth-validator:1.2.6
+    container_name: sawtooth-validator
+    command: /bin/sh -c "sawadm keygen --force && exec sawtooth-validator --endpoint tcp://sawtooth-validator:8800 --bind component:tcp://0.0.0.0:4004 --bind network:tcp://0.0.0.0:8800 --peering dynamic"
+    expose:
+      - 4004
+    networks:
+      - sawtooth-net
+
+
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    networks:
+      - sawtooth-net
+
+  ipfs:
+    image: ipfs/go-ipfs:latest
+    container_name: ipfs
+    ports:
+      - "4001:4001"
+      - "127.0.0.1:8080:8080"
+      - "127.0.0.1:5001:5001"
+    networks:
+      - sawtooth-net
+
+  oracle:
+    environment:
+      - IPFS_API_ENDPOINT=${IPFS_API_ENDPOINT}
+      - IPFS_PROJECT_ID=${IPFS_PROJECT_ID}
+      - IPFS_API_KEY_SECRET=${IPFS_API_KEY_SECRET}
+    build:
+      context: .
+      dockerfile: Dockerfile.oracle
+    depends_on:
+      - sawtooth-validator
+      - ethereum-node
+      - mongodb
+      - ipfs
+
+  settings-tp:
+    networks:
+      - sawtooth-net
+    image: hyperledger/sawtooth-settings-tp:latest
+    container_name: sawtooth-settings-tp
+    depends_on:
+      - sawtooth-validator
+    entrypoint: settings-tp -v -C tcp://validator:4004
+
+  intkey-tp-python:
+    networks:
+      - sawtooth-net
+    image: hyperledger/sawtooth-intkey-tp-python:latest
+    container_name: sawtooth-intkey-tp-python
+    depends_on:
+      - sawtooth-validator
+    entrypoint: intkey-tp-python -v -C tcp://validator:4004
+
+  xo-tp-python:
+    networks:
+      - sawtooth-net
+    image: hyperledger/sawtooth-xo-tp-python:latest
+    container_name: sawtooth-xo-tp-python
+    depends_on:
+      - sawtooth-validator
+    entrypoint: xo-tp-python -v -C tcp://validator:4004
+
+  healthcare-tp:
+    build:
+      context: ./sawtooth/tp
+      dockerfile: Dockerfile.healthcare
+    container_name: sawtooth-healthcare-tp
+    depends_on:
+      - sawtooth-validator
+    environment:
+      - SAWTOOTH_PRIVATE_KEY=${SAWTOOTH_PRIVATE_KEY}
+      - ETHEREUM_NODE_URL=${ETHEREUM_NODE_URL}
+    networks:
+      - sawtooth-net
+    entrypoint: python3 healthcare.py
+
+
+  rest-api:
+    networks:
+      - sawtooth-net
+    image: hyperledger/sawtooth-rest-api:latest
+    container_name: sawtooth-rest-api
+    ports:
+      - "8008:8008"
+    depends_on:
+      - sawtooth-validator
+    entrypoint: sawtooth-rest-api -v -C tcp://validator:4004 --bind rest-api:8008
+
+  ethereum-node:
+    build:
+      context: .
+      dockerfile: Dockerfile.ethereum-node
+    ports:
+      - "7545:7545"
+    volumes:
+      - ./:/app
+      - /ethereum
+
+
+
+
+volumes:
+  ethereum-node-data:
+
+networks:
+  sawtooth-net:
+

@@ -1,0 +1,689 @@
+.patient-funds-container {
+  min-height: 100vh;
+}
+.patient-funds-patient-funds {
+  width: 100%;
+  height: 1117px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(242, 242, 242, 1);
+}
+.patient-funds-text {
+  top: 154px;
+  left: 773px;
+  color: rgba(0, 0, 0, 1);
+  width: 493px;
+  height: auto;
+  position: absolute;
+  font-size: 45px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Jost;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-funds-eth-balance-patient {
+  top: 352px;
+  left: 480px;
+  width: 474px;
+  height: 155px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 30px;
+}
+.patient-funds-withdraw {
+  top: 545px;
+  left: 540px;
+  width: 352px;
+  height: 69px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-radius: 30px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(0, 10, 255, 1);
+}
+.patient-funds-text02 {
+  color: rgba(255, 255, 255, 1);
+  width: 352px;
+  top: 12px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  align-self: auto;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-funds-text04 {
+  top: 265px;
+  left: 1081px;
+  color: rgba(88, 88, 88, 1);
+  width: 474px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-funds-text06 {
+  top: 258px;
+  left: 480px;
+  color: rgba(88, 88, 88, 1);
+  width: 474px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-funds-deposit-e-hpatient {
+  top: 352px;
+  left: 1081px;
+  width: 474px;
+  height: 155px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 30px;
+}
+.patient-funds-deposit {
+  top: 545px;
+  left: 1140px;
+  width: 352px;
+  height: 69px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.patient-funds-group1363 {
+  top: 0px;
+  left: 0px;
+  width: 352px;
+  height: 69px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-radius: 30px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(0, 10, 255, 1);
+}
+.patient-funds-text08 {
+  color: rgba(255, 255, 255, 1);
+  width: 352px;
+  top: 12px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  align-self: auto;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-funds-text10 {
+  top: 709px;
+  left: 375px;
+  color: rgba(88, 88, 88, 1);
+  width: 1002px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.patient-funds-transaction-history-patient {
+  top: 791px;
+  left: 375px;
+  width: 1204.065185546875px;
+  height: 248px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.patient-funds-rectangle2817 {
+  top: 0px;
+  left: 0.0341796875px;
+  width: 1204px;
+  height: 248px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 30px;
+}
+.patient-funds-line17 {
+  top: 245px;
+  left: 1018px;
+  width: 171px;
+  height: 0px;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+}
+.patient-funds-line18 {
+  top: 245px;
+  left: 665.0341796875px;
+  width: 171px;
+  height: 0px;
+  position: absolute;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+}
+.patient-funds-text12 {
+  left: 665.0341796875px;
+  color: rgba(88, 88, 88, 1);
+  width: 372px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-funds-text14 {
+  top: 1px;
+  left: 1018px;
+  color: rgba(88, 88, 88, 1);
+  width: 186px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-funds-text16 {
+  color: rgba(88, 88, 88, 1);
+  width: 665px;
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-funds-line19 {
+  top: 210.8876953125px;
+  left: 0px;
+  width: 1204px;
+  height: 0px;
+  position: absolute;
+}
+.patient-funds-line20 {
+  top: 143.8876953125px;
+  left: 0px;
+  width: 1204px;
+  height: 0px;
+  position: absolute;
+}
+.patient-funds-line21 {
+  top: 75.8876953125px;
+  left: 0px;
+  width: 1204px;
+  height: 0px;
+  position: absolute;
+}
+.patient-funds-dashboard-button {
+  top: 114px;
+  left: 1533px;
+  width: 139px;
+  height: 39.79668045043945px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.patient-funds-view {
+  top: 0px;
+  left: 0px;
+  width: 139px;
+  height: 39.79668045043945px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-radius: 30px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(0, 10, 255, 1);
+}
+.patient-funds-text18 {
+  color: rgba(255, 255, 255, 1);
+  width: 139px;
+  height: auto;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Semi Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-funds-line1 {
+  top: 121px;
+  left: 309px;
+  width: 752px;
+  height: 0px;
+  position: absolute;
+}
+.patient-funds-group1359 {
+  top: 0px;
+  left: 27px;
+  width: 1701px;
+  height: 123px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.patient-funds-rectangle2812 {
+  top: 0px;
+  left: 297px;
+  width: 1404px;
+  height: 107px;
+  position: absolute;
+  border-color: transparent;
+}
+.patient-funds-bell {
+  top: 30px;
+  left: 1532px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+}
+.patient-funds-metamaskicon2 {
+  top: 12px;
+  left: 1603px;
+  width: 68px;
+  height: 63px;
+  position: absolute;
+}
+.patient-funds-text20 {
+  top: 20px;
+  color: rgba(0, 10, 255, 1);
+  width: 859px;
+  height: auto;
+  position: absolute;
+  font-size: 42px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-funds-group1358 {
+  top: 50px;
+  left: 0px;
+  width: 324px;
+  height: 870px;
+  display: flex;
+  padding: 0;
+  position: fixed;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(217, 217, 217, 0);
+}
+
+.patient-funds-group1358:before {
+  content: "";
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 1px;
+  height: calc(100% - 40px);
+  background-color: black;
+}
+
+.patient-funds-text22 {
+  top: 53px;
+  left: 27px;
+  color: rgba(0, 0, 0, 1);
+  width: 282px;
+  height: auto;
+  position: absolute;
+  font-size: 45px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-funds-exit {
+  top: 750px;
+  left: 27px;
+  width: 206px;
+  height: 63px;
+  display: flex;
+  padding: 0;
+  position: fixed;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.patient-funds-rectangle8 {
+  top: 0px;
+  left: 11.117647171020508px;
+  width: 43px;
+  height: 63px;
+  position: absolute;
+  border-color: transparent;
+}
+.eth-balance-dummy {
+  position: absolute;
+  top: 390px;
+  left: 670px;
+  font-size: 60px;
+  z-index: 1;
+  width: 560px;
+
+}
+.eth-deposit-dummy {
+  position: absolute;
+  top: 390px;
+  left: 1280px;
+  font-size: 60px;
+  z-index: 1;
+  width: 560px;
+
+}
+.patient-funds-iconexit {
+  top: 12px;
+  left: 10px;
+  width: 50.64706039428711px;
+  height: 50.64706039428711px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.patient-funds-group1353 {
+  top: 4.220588207244873px;
+  left: 2.1102941036224365px;
+  width: 44.31618118286133px;
+  height: 42.20588302612305px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.patient-funds-rectangle2699 {
+  top: 0px;
+  left: 2.1102945804595947px;
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 4px;
+}
+.patient-funds-vector721 {
+  top: 21.102943420410156px;
+  left: 0px;
+  width: 30px;
+  height: 0px;
+  position: absolute;
+}
+.patient-funds-vector722 {
+  top: 12.661765098571777px;
+  left: 21.10293960571289px;
+  width: 8px;
+  height: 17px;
+  position: absolute;
+}
+.patient-funds-text24 {
+  top: 19px;
+  left: 72px;
+  color: rgba(0, 0, 0, 1);
+  width: 187px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-funds-text26 {
+  top: 138px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 140px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-funds-text28 {
+  top: 192px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 261px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-funds-text30 {
+  top: 321px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 261px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-funds-text31 {
+  top: 458px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 261px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-funds-text33 {
+  top: 263px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 261px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.patient-funds-text35 {
+  top: 389px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 223px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

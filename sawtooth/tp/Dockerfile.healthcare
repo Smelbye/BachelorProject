@@ -1,0 +1,25 @@
+FROM hyperledger/sawtooth-shell:1.2
+
+RUN apt-get update && \
+    apt-get install -y python3-pip python3-dev libsnappy-dev build-essential && \
+    pip3 install -U setuptools wheel && \
+    pip3 install sawtooth-sdk==1.2.5 && \
+    pip3 install pyzmq && \
+    pip3 install aiohttp && \
+    pip3 install protobuf && \
+    apt-get install -y python3 && \
+    apt-get install -y libssl-dev && \
+    apt-get install -y libffi-dev && \
+    pip3 install cython && \
+    pip3 install web3 && \
+    pip3 install py-solc-x && \
+    pip3 install secp256k1 
+
+WORKDIR /HEALTHCAREAPP
+
+COPY requirements.txt .
+RUN pip3 install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+CMD ["python3", "healthcare.py"]
