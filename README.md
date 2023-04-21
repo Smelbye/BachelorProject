@@ -71,7 +71,7 @@ The client application should now be accessible at [http://localhost:3000](http:
 
 ## Usage
 
-For Patients using PatientContract and interacting with the patient dashboard:
+**For Patients using PatientContract and interacting with the patient dashboard:**
 
 The Ethereum smart contract, PatientContract, aims to securely store and manage patients' medical data, including blood pressure data, descriptions, IPFS hashes, and doctor feedback. Patients can upload their medical data to the contract, which will emit events containing the data ID and IPFS hash. They can also authorize or revoke access to their data for specific doctors.
 
@@ -94,7 +94,7 @@ Some functions patients may interact with are:
 'viewAllFeedback': View feedback from all authorized doctors.
 
 
-For Doctors using the Sawtooth Transaction Handler and interacting with the doctor dashboard:
+**For Doctors using the Sawtooth Transaction Handler and interacting with the doctor dashboard:**
 
 The Sawtooth transaction handler allows doctors to interact with the healthcare system by providing a set of functions to perform various tasks such as submitting feedback, getting doctor balances, and retrieving medical data.
 
