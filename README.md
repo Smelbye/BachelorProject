@@ -25,10 +25,10 @@ Additionally, you need to generate private and public keys for Sawtooth. Replace
 
 1. Clone the repository:
 
-\'''bash
+\bash
 git clone https://github.com/Smelbye/BachelorProject/git
 cd bachelorproject
-\..'
+\
 
 2. Start the Sawtooth and Ethereum networks:
 
