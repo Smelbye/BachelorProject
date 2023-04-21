@@ -25,10 +25,10 @@ Additionally, you need to generate private and public keys for Sawtooth. Replace
 
 1. Clone the repository:
 
-\bash
+\'bash
 git clone https://github.com/YOUR_USERNAME/decentralized-healthcare-application.git
 cd decentralized-healthcare-application
-\
+\'
 
 2. Start the Sawtooth and Ethereum networks:
 
