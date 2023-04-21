@@ -71,12 +71,34 @@ The client application should now be accessible at [http://localhost:3000](http:
 
 ## Usage
 
-This decentralized healthcare application allows you to perform the following actions:
+For Patients using PatientContract and interacting with the patient dashboard:
 
-- Submit a doctor feedback hash
-- Get doctor information
-- Get medical data for a patient (if the doctor is authorized)
-- Submit feedback for a patient (if the doctor is authorized)
-- Get the balance for a doctor
+The Ethereum smart contract, PatientContract, aims to securely store and manage patients' medical data, including blood pressure data, descriptions, IPFS hashes, and doctor feedback. Patients can upload their medical data to the contract, which will emit events containing the data ID and IPFS hash. They can also authorize or revoke access to their data for specific doctors.
 
-Use the client application to interact with the system and perform these actions. Please refer to the example code provided in the JavaScript application for more information on how to submit transactions to the Sawtooth blockchain.
+Some functions patients may interact with are:
+
+'addBloodPressureData': Add blood pressure data for a specific patient.
+'getBloodPressureData': Retrieve the blood pressure data associated with a particular data ID.
+'authorizeDoctor': Authorize a doctor to access the patient's medical data.
+'revokeDoctorAuthorization': Revoke a doctor's access to the patient's medical data.
+'submitMedicalData': Submit the patient's medical data, including IPFS hash, description, and blood pressure data.
+'givePermission': Grant a specific doctor permission to view the patient's medical data.
+'viewDoctorFeedback': View feedback submitted by a specific doctor.
+'viewAllFeedback': View feedback from all authorized doctors.
+
+
+For Doctors using the Sawtooth Transaction Handler and interacting with the doctor dashboard:
+
+The Sawtooth transaction handler allows doctors to interact with the healthcare system by providing a set of functions to perform various tasks such as submitting feedback, getting doctor balances, and retrieving medical data.
+
+Some functions doctors may interact with are:
+
+'get_medical_data': Retrieve a patient's medical data if the doctor is authorized to do so.
+'submit_feedback': Submit feedback for a specific patient if the doctor is authorized to do so. This feedback will be submitted to the Ethereum smart contract.
+'get_doctor_balance': Retrieve the doctor's balance from the Ethereum smart contract.
+'submit_doctor_feedback_hash': Save the hash of the doctor's feedback for a specific patient to the MongoDB database.
+'get_doctor_info': Retrieve the doctor's information based on their public key.
+
+The HealthcareTransactionHandler class handles incoming transactions and calls the appropriate functions based on the payload's function name. The transaction processor listens to the Sawtooth network and processes transactions with the healthcare family name and version.
+
+Use the client application to interact with the system and perform these actions. Please refer to the example code provided in the JavaScript application or the Python test_script for more information on how to submit transactions to the Sawtooth blockchain.
