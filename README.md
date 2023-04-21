@@ -25,15 +25,15 @@ Additionally, you need to generate private and public keys for Sawtooth. Replace
 
 1. Clone the repository:
 
-\'bash
-git clone https://github.com/YOUR_USERNAME/decentralized-healthcare-application.git
-cd decentralized-healthcare-application
-\'
+\'''bash
+git clone https://github.com/Smelbye/BachelorProject/git
+cd bachelorproject
+\..'
 
 2. Start the Sawtooth and Ethereum networks:
 
 \bash
-docker-compose up
+ethereum-sawtooth.yml up
 \
 
 3. Install the JavaScript dependencies:
@@ -56,14 +56,14 @@ node deploy.js
 1. Start the healthcare transaction processor:
 
 \bash
-cd healthcareapp
-python3 tp.py
+cd bachelorproject/sawtooth
+python3 healthcare.py
 \
 
-2. Start the client application:
+2. Start the server application:
 
 \bash
-cd client
+cd server
 npm start
 \
 
